@@ -1,0 +1,9 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Cascadia Code", monospace; /* Fallback to monospace if Cascadia Code is not available */
+}

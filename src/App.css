@@ -1,0 +1,68 @@
+/** @format */
+
+/* body {
+    background: #000;
+} */
+/* General styling for the card */
+.note-card {
+    /* width: 260px;
+    height: 220px; */
+    position: relative;
+    transform: rotate(0deg);
+    background-color: #f8f9fa;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: transform 0.3s ease;
+    border-radius: 15px 10px 10px 15px;
+    /* overflow-y: auto; */
+}
+
+/* Rotate first card (odd) to the left */
+.note-card:nth-child(odd) {
+    transform: rotate(-5deg);
+    /* background-color: #fca5a5;  */
+}
+
+/* Rotate second card (even) to the right */
+.note-card:nth-child(even) {
+    transform: rotate(5deg);
+    /* background-color: #93c5fd;  */
+}
+
+/* Pin icon styling for top corners */
+.pin-icon {
+    top: -10px;
+    left: -12px;
+    /* font-size: 24px; */
+    /* color: black; */
+}
+
+/* Adjust pin position for odd cards (top-right corner) */
+.note-card:nth-child(odd) .pin-icon {
+    top: -11px;
+    right: -8px;
+    transform: rotate(30deg);
+    /* color: green; */
+    left: auto;
+}
+
+/* Adjust pin position for even cards (top-left corner) */
+.note-card:nth-child(even) .pin-icon {
+    top: -11px;
+    left: -8px;
+    transform: rotate(-30deg);
+    right: auto;
+}
+
+/* Decorative corner fold */
+.corner-fold {
+    background-color: rgb(189, 132, 255);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 5px;
+    bottom: 5px;
+    right: -10px;
+    transform: rotate(-20deg);
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
