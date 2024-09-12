@@ -112,7 +112,7 @@ const Home = ({ searchNote, setSearchNote }) => {
                 </div>
             </div>
 
-            <div className=" bg-[#ff99c8] -z-10 flex items-center justify-center fixed bottom-8 right-8 rounded-full w-16 h-16  ">
+            <div className=" bg-[#ff99c8] flex items-center justify-center fixed bottom-8 right-8 rounded-full w-16 h-16  ">
                 <button
                     className=" text-3xl text-white ml-1 "
                     title="create a new note's"
