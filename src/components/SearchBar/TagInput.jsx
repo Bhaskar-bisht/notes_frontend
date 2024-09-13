@@ -51,7 +51,7 @@ const TagInput = ({ tags, setTags }) => {
                 <input
                     type="text"
                     value={inputTag}
-                    className=" block w-fit px-3 py-2 border border-gray-300  rounded-md shadow-sm focus:outline-none focus:ring-black focus:border-black "
+                    className=" block w-full px-3 py-2 border border-gray-300  rounded-md shadow-sm focus:outline-none focus:ring-black focus:border-black "
                     placeholder="tag's"
                     onChange={handleTagInputChange}
                     onKeyDown={handleTagKey}
